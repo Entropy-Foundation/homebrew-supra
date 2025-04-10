@@ -5,7 +5,7 @@ class Supra < Formula
     url "https://pub-aa772efaa01a41deb1679acfca2d28b3.r2.dev/releases/supra_node_#{version}-stripped.zip"
 
     def install
-        bin.install "build_output/stripped/supra"
-        bin.install "build_output/stripped/rpc_node"
+        bin.install "stripped/supra"
+        bin.install "stripped/rpc_node"
     end
 end
